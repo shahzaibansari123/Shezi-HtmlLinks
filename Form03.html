@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 03 - Your Review</title>
+</head>
+<body>
+    <br/>
+    <center>
+        <table border="0px"cellpadding="0" cellspacing ="0" >
+            <tr>
+                <td  bgcolor="#a4dd9e" width ="250px"><center><h3>Step 01: Account</h3></center></td>
+                <td  bgcolor="#a4dd9e" width ="250px"><center><h3>Step 02: Personal Details</h3></center></td>
+                <td  bgcolor="#72a3de" width ="250px"><center><h3>Step 03: Your Review</h3></center></td>
+            </tr>
+        </table>
+    </center>
+    <fieldset>
+        <legend><h2>Your Review</h2></legend>
+       <form action="https://www.example.org/profile.php">
+           <p>
+               How did you hear about us?
+               <select name="referrer" id="about" size="1">
+                   <option value="Select your Option" selected="selected">Select Your Option</option>
+                   <option value="Social Media" >Social Media</option>
+                   <option value="Word of Mouth" >Word of Mouth</option>
+                   <option value="Others" >Others</option>
+               </select>
+            </p>
+            <p>
+                Would you like to visit again?
+                <br/>
+                <input type="radio" name="Review" value="yes"/>Yes
+                <input type="radio" name="Review" value="No"/>No
+                <input type="radio" name="Review" value="Maybe"/>Maybe
+            </p>
+            <p>Comments:<br/>
+            <textarea name="comments" col="10" rows="4" placeholder="Enter your comments here"></textarea>
+            </p>
+            <p>Documents:<br/>
+            <input type="file" name="user-images"/>
+            </p>
+            <p>
+                <input type="checkbox" name="email" checked="checked"/>Sign me up for email updates
+            </p>
+        </form>
+        <a href="../Assignment 04 (forms)/Form02.html"><input type="image" src="Images/back.png"  height="35" width="125" ></a>
+        <a href="../Assignment 04 (forms)/Completed.html"><input type="image" src="Images/submit.png" height="35" width="125"></a>
+    </fieldset>
+</body>
+</html>
